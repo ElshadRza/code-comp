@@ -1,0 +1,22 @@
+img{
+width: 20px;
+}
+
+.sidebar img{
+  width: 20px;
+}
+
+
+
+.sidebar{
+  position: absolute;
+  width: 500px;
+  left: -500px;
+  transition:all 1s;
+  
+}
+
+.sidebar-open{
+  left: 0;
+ 
+}
